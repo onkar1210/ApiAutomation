@@ -3,6 +3,8 @@ package POJO;
 import java.util.List;
 
 public class Api {
+
+    //need to update POJO classes
     private List<String> courseTitle;
     private List<String> price;
 
