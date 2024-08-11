@@ -27,6 +27,12 @@ public class ApiJsons {
                 "}";
     }
 
+    public static String deletePlace(String placeId){
+        return "{\n" +
+                "    \"place_id\":\""+ placeId +"\"\n" +
+                "}\n";
+    }
+
     public static String coursePrice(){
         return "{\n" +
                 "\n" +
